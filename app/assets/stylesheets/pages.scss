@@ -1,3 +1,79 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  color: rgb(35, 38, 23) ;
+  background-color: rgba(147, 172, 191, 0.3);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 300;
+  //text-align: justify;
+  padding-top: 100px;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content-container {
+  //padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1140px;
+  margin: 30px auto 60px;
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1px 15px rgba(0,0,0,0.1);
+}
+
+.content-container .container-image {
+  //display: grid;
+  justify-content: center;
+  //align-items: center;
+  background-color: rgba(147, 171, 191, 0.7);
+  width: 48%;
+  min-height: 40%;
+  overflow: hidden;
+  //height: 400px;
+
+}
+
+.container-image-skills {
+  display: flex;
+  justify-content: center;
+ }
+
+#susan {
+  justify-content: center;
+  //margin-left: 45px;
+  display: flex;
+}
+
+
+.img-susan {
+    margin-top: 40px;
+    height: 250px;
+    border-radius: 50%;
+    //margin-left: 155px;
+
+  }
+
+.container-content {
+    flex: 1;
+    position: relative;
+    padding: 50px;
+    width: 48%;
+    height: 100%;
+
+}
+
+#skills {
+  text-align: center;
+  padding-right: 40px;
+  margin: 5px 0;
+  letter-spacing: .5px;
+}

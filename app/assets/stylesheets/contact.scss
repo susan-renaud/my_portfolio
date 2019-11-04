@@ -1,0 +1,52 @@
+.contact-container {
+  width: 700px;
+  height: 400px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1px 15px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 30px auto 60px;
+
+}
+
+.contact-banner {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(147, 171, 191, 0.9);
+  position: absolute;
+}
+
+.contact-title {
+  color: #FFFFFF;
+  padding: 30px 20px;
+  font-weight: lighter;
+}
+
+.contact-content {
+height:300px;
+margin-top: 110px;
+padding: 20px;
+display: grid;
+grid-template-columns: 380px 320px;
+
+}
+
+.img-contact {
+  height: 275px;
+}
+
+#envelope {
+  font-size: 22px;
+  color: black;
+  opacity: .5
+}
+
+#phone {
+  font-size: 19px;
+  color: black;
+  opacity: .5
+}
+

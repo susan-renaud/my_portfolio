@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MyPortfolio</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="UX Researcher, Data Analyst, and Full-Stack Web Developer">
+    <meta name="keywords" content="susan renaud, portfolio, ux, user research, research, full stack web development, web development, data analyst, data analysis, ruby on rails, le wagon">
+    <meta name="author" content="Susan Renaud">
+    <title>Susan Renaud - Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Open+Sans:300,400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +20,42 @@
   </head>
 
   <body>
+    <div class="navbar">
+    <%= link_to root_path, class: "navbar-new" do %>
+    <%= image_tag "NewLogo2.png" %>
+    <% end %>
+
+      <div><h2 id="name">Susan Renaud</h2></div>
+
+      <div class="navbar-buttons">
+        <btn class="btns">
+          <%= link_to('About', root_path) %>
+        </btn>
+        <btn class="btns">
+          <%= link_to('Projects', projects_path) %>
+        </btn>
+        <btn class="btns">
+          <%= link_to('Resume', "/UXCV copy.pdf", target: "_blank") %>
+        </btn>
+        <btn class="btns">
+          <%= link_to "Contact", contact_path, class: "contact" %>
+        </btn>
+      </div>
+
+    </div>
     <%= yield %>
+    <div class="footer">
+    <div class="in-touch">Get in touch!</div>
+    <div class="footer-links">
+      <a href="https://github.com/susan-renaud"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/susan_renaud/?hl=en"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=1530420089"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com/susanrenaud"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/susanelizabethrenaud/"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <div class="footer-copyright">
+    Designed and coded with <i class="fas fa-heart"></i> by Susan Renaud
+    </div>
+  </div>
   </body>
 </html>

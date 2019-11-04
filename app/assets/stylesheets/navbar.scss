@@ -1,0 +1,49 @@
+.navbar {
+ display: flex;
+ top: 0;
+ width: 100%;
+ justify-content: space-between;
+ position: fixed;
+ background-color: #FFFFFF;
+ z-index: 1;
+ align-items: center;
+}
+
+.navbar-buttons {
+  display: block;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.btns{
+  margin: 25px 20px;
+}
+
+a:-webkit-any-link {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#title {
+text-align: center;
+margin-bottom: 20px;
+letter-spacing: 0.5px;
+}
+
+#name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  text-align:left;
+  margin-right: 600px;
+}
+
+
+
+.navbar-new img {
+ width: 60px;
+ border-radius: 50%;
+ margin: 0;
+
+ }
+

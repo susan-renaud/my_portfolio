@@ -7,7 +7,13 @@
  background-color: #FFFFFF;
  z-index: 1;
  align-items: center;
+ padding: 0px 10px;
  max-height: 120px;
+ z-index: 1000;
+}
+
+.navbar .navbar-collapse {
+ flex-grow: 0;
 }
 
 .navbar-buttons {
@@ -35,8 +41,8 @@ letter-spacing: 0.5px;
 #name {
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
-  text-align:left;
-  margin-right: 600px;
+  position: absolute;
+  margin-left: 70px;
 }
 
 

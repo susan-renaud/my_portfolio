@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  margin: 30px auto 60px;
+  margin: 2vw auto 4vw;
   padding: 0;
   object-fit: contain;
 
@@ -16,20 +16,24 @@
   width: 100%;
   background-color: rgba(147, 171, 191, 0.9);
   position: absolute;
+  height: 6vw;
+  //height: 60px;
 }
 
 .contact-title {
   color: #FFFFFF;
-  padding: 30px 20px;
+  padding: 1.5vw;
   font-weight: lighter;
+  position: relative;
+
 }
 
 .contact-content {
   //max-height:300px;
   height: 100%;
-  margin-top: 110px;
+  margin-top: 5vw;
   //margin-right: 1vw;
-  padding: 20px;
+  padding: 1.5vw;
   display: flex;
   //font-size: 100%;
   overflow: visible;
@@ -55,7 +59,7 @@
 }
 
 #envelope {
-  font-size: 19px;
+  font-size: 2vw;
   color: black;
   opacity: .5;
   width: auto;
@@ -64,7 +68,7 @@
 }
 
 #phone {
-  font-size: 19px;
+  font-size: 2vw;
   color: black;
   opacity: .5;
 }

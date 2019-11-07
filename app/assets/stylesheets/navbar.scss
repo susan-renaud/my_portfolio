@@ -16,10 +16,8 @@
  flex-grow: 0;
 }
 
-.navbar-buttons {
-  display: block;
-  text-decoration: none;
-  justify-content: center;
+.navbar-collapse {
+  text-align: right;
 }
 
 .nav-item{
@@ -32,12 +30,6 @@ a:-webkit-any-link {
   text-decoration: none;
 }
 
-#title {
-text-align: center;
-margin-bottom: 20px;
-letter-spacing: 0.5px;
-}
-
 #name {
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
@@ -45,12 +37,37 @@ letter-spacing: 0.5px;
   margin-left: 70px;
 }
 
+#navbarSupportedContent {
+  overflow: scroll;
+  background-color: white;
+  //width: 100px;
+
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: flex;
+  line-height: 0.5px;
+}
 
 
-.navbar-new img {
+.navbar-brand img {
  width: 60px;
  border-radius: 50%;
  margin: 0;
 
  }
+
+ i {
+    margin-right: 8px;
+  }
+
+  a.btn {
+      color: white;
+  }
+
+  a {
+    color: black;
+  }
+
 

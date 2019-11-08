@@ -7,8 +7,7 @@ min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5vw;
-  margin: 9vw;
-  align-items: center;
+  margin: 5vw;
 }
 
 .card {
@@ -23,19 +22,10 @@ min-height: 100vh;
   border-color: black;
   transition:none;
 }
-.card-body {
-
-}
 
 .card-img-top {
   border-bottom: 1px solid rgb(168, 180, 191);
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
 
 

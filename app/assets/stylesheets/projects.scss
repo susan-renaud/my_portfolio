@@ -26,7 +26,9 @@ min-height: 80vh;
 .card-img-top {
   border-bottom: 1px solid rgb(168, 180, 191);
 }
-
+.card-body {
+  padding: 1.25vw;
+}
 
 .btn {
   padding: 0.2rem 0.5rem;

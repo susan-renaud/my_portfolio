@@ -71,6 +71,9 @@ h2 {
   .column {
     width: 100%;
   }
+  .column.container-content.col-12.col-md-6 {
+    padding: 15px;
+  }
 }
 
 .container-image-skills {

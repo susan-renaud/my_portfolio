@@ -1,24 +1,5 @@
 # README
+This is my web development portfolio website. MY portfolio was built using Ruby on Rails, HTML, CSS, Bootstrap, git, Github, PostgreSQL, and Heroku.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My portfolio can be found at <a href="http://www.susan-renaud.com/">susan-renaud.com</a>.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
